@@ -1,0 +1,2 @@
+# StackedBar
+Stacked bar plots
