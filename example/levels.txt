@@ -1,0 +1,5 @@
+p__Actinobacteria
+p__Proteobacteria
+p__Bacteroidetes
+p__Verrucomicrobia
+p__Firmicutes
