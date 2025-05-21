@@ -43,6 +43,7 @@ input <- function(inputfile) {
 run <- function() {}
 
 output <- function(outputfile) {
+	write.csv(assay$abundance, paste(outputfile, "csv", sep="."))
 	if (species == 'true') {
 gplot<-ggplot(assay, aes(fill=factor(species, levels=levels_updated), y=abundance, x=Group)) + scale_fill_manual(values=cbp1) + geom_bar(position="stack", stat="identity") 
 	}
